@@ -1,10 +1,11 @@
-
 <!DOCTYPE html5>
 
 
 <html>
 <head>
 	<title>About Flirt Detector</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="page1.css">
 </head>
 <body class="body">
@@ -17,15 +18,12 @@
 	</div>
 	<main id="main">
 	<span id="top_page" onclick="openNav()">&#9776; &nbsp&nbsp&nbsp&nbsp Flirt Detector </span>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
+	
 
-	<h1>How to use this</h1>
-	<h2>This is a simple website to approximate the percentage of flirting intention that your target is having for you</h2>
-	<h1>How does the algorithm works</h1>
+	<h1 class="glow" style="margin-top: 3em;">
+		YOUR DONATION WILL HELP SOLVE MILLIONS OF RELATIONSHIPS DILEMMA
+	</h1>
+	<h2> You can either donate using Paypal or through cash.</h2>
 
 
 	<!--#TODO Paypal donation button -->
@@ -33,37 +31,24 @@
 
     <!-- Identify your business so that you can collect the payments. -->
     <input type="hidden" name="business"
-        value="donations@kcparkfriends.org">
+        value="donation@flirtdetector.com">
 
     <!-- Specify a Donate button. -->
     <input type="hidden" name="cmd" value="_donations">
 
     <!-- Specify details about the contribution -->
-    <input type="hidden" name="item_name" value="Friends of the Park">
-    <input type="hidden" name="item_number" value="Fall Cleanup Campaign">
+    <input type="hidden" name="item_name" value="Superhero for World Peace">
+    <input type="hidden" name="item_number" value="Flirt Detector Donation">
     <input type="hidden" name="amount" value="25.00">
-    <input type="hidden" name="currency_code" value="USD">
+    <input type="hidden" name="currency_code" value="CHF">
 
     <!-- Display the payment button. -->
-    <input type="image" name="submit"
-    src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-    alt="Donate">
-    <img alt="" width="1" height="1"
-    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+    <button class="paypal-btn">
+    	<i class="fa fa-paypal"></i>
+    </button>
+    <p>*25 CHF per donation</p>
+    
 	</form>
-
-	<!-- #TODO Bitcoin-->
-	<span style="overflow: hidden; border: 1px solid black; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; padding: 4px; padding-left: 0px; font-family: Arial; font-size: 12px; font-weight: bold; background-color: white;">
-	<span style="padding: 4px; padding-left: 8px; background-color: #E98A0A; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; color: white;">
-		<a href="http://www.bitcoin.org/" style="text-decoration: none; color: white;">
-			<span style="-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; font-weight: normal; color: white; font-size: 15px; background-color: white; color: #E98A0A; padding: 1px 5px; padding-top: 0px;">&#3647;</span>
-			Donate using Bitcoin!
-		</a>
-	</span>
-	<span style="padding: 5px;">
-		13m9CAKrYsdLKhqsNm4UkHHJqDM19F4oKv
-	</span>
-</span>`
 
 	<script>
 
